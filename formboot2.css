@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  width: 70% !important;
+  height: 70vh;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.container form {
+  height: 100%;
+  padding: 35px 20px;
+  color: grey;
+}
+
+.container form .big {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container form .big .inp {
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 8vh !important;
+  margin-top: 20px;
+}
+
+.container form .big .inp input {
+  border: none;
+}
+
+.container form .big #in {
+  margin-right: 95px;
+}
+
+.container form button {
+  margin-top: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0bc980;
+  color: white;
+}
+/*# sourceMappingURL=Formboot2.css.map */
